@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_clear_att"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="Clear Attendance"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/backup"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="Backup"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/restore"
+        android:orderInCategory="100"
+        android:visible="false"
+        android:title="Restore"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/RegisterFace"
+        android:orderInCategory="100"
+        android:visible="true"
+        android:title="Register Face"
+        app:showAsAction="never" />
+</menu>
